@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.custom-toast-container {
+    margin-top: 50px; /* Adjust the margin as needed */
+}
+
+.star-checkbox:checked+.star-icon {
+    stroke: #9F7AEA;
+    fill: #9F7AEA;
+}
+
+.custom-outline:focus {
+    outline: 2px solid #8B5CF6; /* Use the desired purple color (bg-purple-500) */
+    outline-offset: 1px; /* Optional: To control the spacing between the outline and the element */
+}
+
+ .dashboard {
+    touch-action: none;
+  }
+  #draggable {
+    touch-action: none;
+    user-select: none;
+  }
+  #draggable:active {
+    background-color: rgba(168, 218, 220, 1);
+  }
+  #draggable:hover {
+    cursor: grab;
+    border-width: 2px;
+  }
+  #draggable:active {
+    cursor: grabbing;
+  }
+  
